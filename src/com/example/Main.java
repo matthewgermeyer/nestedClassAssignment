@@ -2,6 +2,8 @@ package com.example;
 
 import java.io.IOException;
 
+/* Adventure for NestedClass Assignment
+ */
 public class Main {
 
     public static void main(String[] args) throws IOException {
@@ -16,7 +18,7 @@ public class Main {
 
         wMaker.addAttachment(1, "Bumble", "Dating");
         System.out.println(wMaker.getWidget(1));
+        System.out.println(wMaker.getWidget(2));
     }
-
 }
 
