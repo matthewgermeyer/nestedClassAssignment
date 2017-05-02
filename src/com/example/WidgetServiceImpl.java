@@ -22,8 +22,8 @@ public class WidgetServiceImpl implements WidgetService {
 
     @Override
     public String listWidgets() throws IOException {
-        String json = mapper.writeValueAsString(widgets);
-        return json;
+        return mapper.writeValueAsString(widgets);
+
     }
 
     @Override

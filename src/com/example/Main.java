@@ -2,8 +2,7 @@ package com.example;
 
 import java.io.IOException;
 
-/* Adventure for NestedClass Assignment
- */
+//NestedClass Assignment - Adventure for
 public class Main {
 
     public static void main(String[] args) throws IOException {
